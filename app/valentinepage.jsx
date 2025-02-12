@@ -24,7 +24,7 @@ export default function ValentinePage() {
             <Image src="/happy.gif" alt="Happy Gif" width={300} height={200} />
           </div>
         )}
-        <h1 className="text-4xl font-bold text-white mb-6 drop-shadow-lg">Will you be my Valentine? ❤️</h1>
+        <h1 className="text-4xl font-bold text-white mb-6 drop-shadow-lg">❤️ Wil je mijn valentijn zijn? ❤️</h1>
         <div className="flex gap-6 justify-center">
           <motion.button
             className="px-6 py-3 bg-green-500 text-white rounded-lg text-lg font-bold shadow-lg"
@@ -34,13 +34,13 @@ export default function ValentinePage() {
               setShowGif(true);
             }}
           >
-            Yes
+            Ja!!
           </motion.button>
           <button
             className="px-6 py-3 bg-red-500 text-white rounded-lg text-lg font-bold shadow-lg"
             onClick={() => setYesSize(yesSize + 0.2)}
           >
-            No
+            Nee :c
           </button>
         </div>
       </div>
