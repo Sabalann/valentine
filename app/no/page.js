@@ -20,7 +20,7 @@ export default function QuestionPage() {
             className="px-6 py-3 bg-green-500 text-white rounded-lg text-lg font-bold shadow-lg"
             onClick={() => router.push("/yes")}
           >
-            Nee sorry ik het een foutje gemaakt!!
+            Nee sorry ik heb een foutje gemaakt!!
           </motion.button>
           <button
             className="px-6 py-3 bg-red-500 text-white rounded-lg text-lg font-bold shadow-lg"
