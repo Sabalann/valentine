@@ -15,7 +15,7 @@ export default function YesPage() {
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-pink-300 to-red-400 text-white text-center">
       <Confetti width={windowSize.width} height={windowSize.height} />
       <h1 className="text-5xl font-bold mb-4">Yay! ❤️</h1>
-      <p className="text-xl mb-6">You said yes! You’re the best! 🥰</p>
+      <p className="text-xl mb-6">Je bent de beste girlfriend ooit! Dankjewel dat je zo zorgzaam, lief, knap en slim bent 🥰</p>
       <Image src="/happy.gif" alt="Happy Gif" width={300} height={200} />
     </div>
   );
